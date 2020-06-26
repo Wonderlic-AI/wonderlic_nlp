@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'wonderlic_nlp',
   packages = ['wonderlic_nlp'],
-  version = '0.1',
+  version = '0.1.1',
   license='gpl-3.0',
   description = 'General-purpose NLP toolkit for accessing popular psycholinguistics databases.',
   author = 'Ross Piper, Abdallah Aboelela',
   author_email = 'ross.piper@wonderlic.com, abdallah.aboelela@wonderlic.com',
   url = 'https://github.com/Wonderlic-AI/wonderlic_nlp',
-  download_url = 'https://github.com/Wonderlic-AI/wonderlic_nlp/archive/v_01.tar.gz',
+  download_url = 'https://github.com/Wonderlic-AI/wonderlic_nlp/archive/v_0_1_1.tar.gz',
   keywords = ['NLP', 'Python', 'Natural', 'Language', 'Processing', 'English', 'Python', 'tfidf', 'MRC', 'SUBTLEX', 'SUBTLEXus', 'Psycholinguistics'],
   install_requires=[            # I get to this in a second
           'pandas',

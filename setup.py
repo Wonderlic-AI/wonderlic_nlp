@@ -19,7 +19,8 @@ setup(
           'empath',
           'numpy',
           'pyenchant',
-          'sklearn'
+          'sklearn',
+          'textstat'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',

@@ -1,1 +1,1 @@
-from wonderlic_nlp.wondelric_nlp import WonderlicNLP
+from wonderlic_nlp.wonderlic import WonderlicNLP

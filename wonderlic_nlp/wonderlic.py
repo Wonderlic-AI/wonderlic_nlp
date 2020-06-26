@@ -23,7 +23,7 @@ from textblob import TextBlob, Word
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Homemade imports
-from imports.psycholinguistics import *
+from wonderlic_nlp.psycholinguistics import *
 
 class WonderlicNLP:
     def __init__(self, 

@@ -1,0 +1,1 @@
+from wonderlic_nlp.wondelric_nlp import WonderlicNLP

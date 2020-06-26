@@ -7,7 +7,7 @@ setup(
   description = 'General-purpose NLP toolkit for accessing popular psycholinguistics databases.',
   author = 'Ross Piper, Abdallah Aboelela',
   author_email = 'ross.piper@wonderlic.com, abdallah.aboelela@wonderlic.com',
-  url = 'https://github.com/Wonderlic-AI/wonderlic_nlp'
+  url = 'https://github.com/Wonderlic-AI/wonderlic_nlp',
   download_url = 'https://github.com/Wonderlic-AI/wonderlic_nlp/archive/v_01.tar.gz',
   keywords = ['NLP', 'Python', 'Natural', 'Language', 'Processing', 'English', 'Python', 'tfidf', 'MRC', 'SUBTLEX', 'SUBTLEXus', 'Psycholinguistics'],
   install_requires=[            # I get to this in a second

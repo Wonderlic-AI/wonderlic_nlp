@@ -10,7 +10,6 @@ import enchant
 import numpy as np
 import pandas as pd
 import spacy
-import en_core_web_sm
 import textstat
 from empath import Empath
 

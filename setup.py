@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'Wonderlic_NLP',
-  packages = ['Wonderlic_NLP'],
+  name = 'wonderlic_nlp',
+  packages = ['wonderlic_nlp'],
   version = '0.1',
   license='gpl-3.0',
   description = 'General-purpose NLP toolkit for accessing popular psycholinguistics databases.',

@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 setup(
   name = 'wonderlic_nlp',
   packages = ['wonderlic_nlp'],
-  version = '0.1.1',
+  version = '0.1.11',
   license='gpl-3.0',
   description = 'General-purpose NLP toolkit for accessing popular psycholinguistics databases.',
   author = 'Ross Piper, Abdallah Aboelela',

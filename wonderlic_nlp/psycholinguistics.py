@@ -1,4 +1,5 @@
 import pickle
+import os
 
 
 # General-purpose depickling function
@@ -78,7 +79,7 @@ class MRCDatabase(PLDatabase):
     # Constructor method
     # Calls the superclass constructor
     def __init__(self):
-        pickle_filename = 'psycholinguistics/mrc.pickle'
+        pickle_filename = __file__[:-3] + '/mrc.pickle'
         super().__init__(pickle_filename)
         
     # Indicates whether a given word is included in the MRC database
@@ -287,7 +288,7 @@ class SubtlexDatabase(PLDatabase):
     # Constructor method
     # Calls the superclass constructor
     def __init__(self):
-        pickle_filename = 'psycholinguistics/subtl.pickle'
+        pickle_filename = pickle_filename = __file__[:-3] + '/subtl.pickle'
         super().__init__(pickle_filename) 
     
     # Generalized SUBTL score getter method
